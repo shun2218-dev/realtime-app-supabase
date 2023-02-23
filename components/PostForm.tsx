@@ -56,6 +56,7 @@ const PostFormMemo: FC = () => {
             isDisabled ? 'bg-gray-300' : 'bg-indigo-600'
           } px-3 py-2 text-sm text-white`}
           disabled={isDisabled}
+          data-testid="btn-post"
         >
           {editedPost.id ? 'Update' : 'Create'}
         </button>
