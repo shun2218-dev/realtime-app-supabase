@@ -63,3 +63,4 @@ describe('DashBoard', () => {
     cy.get('[data-testid="ul-notice"]').children().should('have.length', 0)
   })
 })
+export {}
